@@ -272,8 +272,8 @@ RegisterNetEvent("vorp:SelectedCharacter") -- Event for checking jail and job on
 AddEventHandler("vorp:SelectedCharacter", function(charid)
     TriggerServerEvent("lawmen:check_jail")
     Wait(200)
-    TriggerServerEvent("lawmen:gooffdutysv")
-    TriggerServerEvent("judicial:gooffdutysv")
+    TriggerServerEvent("lawmen:goondutysv")
+    TriggerServerEvent("judicial:goondutysv")
 end)
 
 RegisterNetEvent("lawmen:onduty")
